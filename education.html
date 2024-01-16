@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Website</title>
+  <style>
+  
+    body, html {
+		height: 100%;
+		margin: 0;
+		font-family: Arial, Helvetica, sans-serif;
+		display: flex;
+		flex-direction: column;
+		min-height: 100vh;
+		background-image: url("images/bg.PNG");
+		background-size: cover;
+	}
+
+    .hero-image {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/bg.jpg");
+      height: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+
+    .hero-text {
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+    }
+
+    .hero-text button {
+      font-family: Arial, sans-serif;
+      font-size: 15px;
+      border: 10px;
+      outline: 0px;
+      display: inline-block;
+      padding: 30px 60px;
+      color: #E0CEA9;
+      background-color: #0003;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    .hero-text button:hover {
+      background-color: #3C290C;
+      color: #E0CEA9;
+    }
+
+    * {
+      margin: 0px;
+      padding: px;
+      font-family: verdana;
+    }
+	
+	/* ... (other styles remain the same) */
+
+#abc {
+  /* Remove background-image property from here */
+}
+	
+    #abc {
+      width: 100%;
+      height: 100vh;
+      background-image: url(images/bg.PNG);
+      background-size: cover;
+    }
+
+    nav {
+      width: 100%;
+      height: 50px;
+	  font-size: 22px;
+      background-color: #0005;
+      line-height: 50px;
+      text-align: center;
+      position: center;
+      top: 10;
+      z-index: 1000;
+    }
+
+    nav ul {
+      float: none;
+      margin: 0 auto;
+    }
+
+    nav ul li {
+      list-style-type: none;
+      display: inline-block;
+      transition: 2.0s all;
+    }
+
+    nav ul li:hover {
+      background-color: #088;
+      text-align: center;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      padding: 15px;
+      text-align: center;
+    }
+
+    section {
+      padding: 0;
+      background-color: #fff;
+      margin: 0;
+      border-radius: 2px;
+    }
+	
+	table {
+		font-family: Vollkorn, serif;
+		color: white;
+		margin: 0 auto;
+		margin-bottom: 50px;
+		margin-top: 5px;
+  
+}
+
+     h1 {
+	font-family: Vollkorn, serif;
+	  font-size: 45px;
+	  color: white;
+      text-align: center;
+	  margin: 20px;
+	  padding: 20px;
+    }
+
+    .image-container {
+      text-align: center;
+	
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+	  background-color: #0003;
+    }
+
+    footer {
+	background-color: #E0CEA9;
+	color: #3C290C;
+	text-align: center;
+	padding: 10px;
+	margin-top: 100px;
+	
+	}
+	
+    
+  </style>
+</head>
+<body>
+
+  <div id="abc">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="experience.html">Experiences</a></li>
+        <li><a href="contactme.html">Contact Me</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+
+	<br><h1 align="center">My Education</h1></br>
+
+  <table border="0" cellspacing="5" cellpadding="15" align="center">
+    <tr>
+        <td>
+            <div class="image-container">
+                <img src="images/school 1.jpeg" alt="Gambar Profil" width="150">
+            </div>
+        </td>
+        <td>
+            <div class="image-container">
+                <img src="images/school 2.jpeg" alt="Gambar Profil" width="150">
+            </div>
+        </td>
+        <td>
+            <div class="image-container">
+                <img src="images/school 3.png" alt="Gambar Profil" width="150">
+            </div>
+        </td>
+        <td>
+            <div class="image-container">
+                <img src="images/school 4.png" alt="Gambar Profil" width="250">
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td align="center"><b>Sri Al-Amin Kuala Terengganu</b></td>
+        <td align="center"><b>Sekolah Menengah Kebangsaan Bukit Tunggal</b></td>
+        <td align="center"><b>Sekolah Menengah Teknik Terengganu</b></td>
+        <td align="center"><b>Universiti Teknologi MARA, Cawangan Kelantan</b></td>
+    </tr>
+    <tr>
+        <td align="center">2009 - 2014</td>
+        <td align="center">2015 - 2018</td>
+        <td align="center">2019 - 2020</td>
+        <td align="center">2020 - 2024</td>
+    </tr>
+</table>
+
+
+  <footer>
+    <marquee direction="left">© 2024 EsyahSaeidi's website. All Rights Reserved.</marquee>
+  </footer>
+</body>
+</html>
+

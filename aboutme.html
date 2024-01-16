@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url(images/bgabtme.PNG);
+      margin: 0;
+      padding: 0;
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: verdana;
+    }
+
+    #abc {
+      width: 100%;
+      height: 100vh;
+      background-image: url(images/bgabtme.PNG);
+      background-size: cover;
+    }
+
+    nav {
+      width: 100%;
+      height: 50px;
+	  font-size: 18px;
+      background-color: #0005;
+      line-height: 20px;
+      text-align: center;
+      position: center;
+      top: 10;
+      z-index: 1000;
+    }
+
+    nav ul {
+      float:center;
+      margin-center: 30px;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      display: inline-block;
+      transition: 0.7s all;
+    }
+
+    nav ul li:hover {
+      background-color: #088;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      padding: 15px;
+      display: inline-block;
+    }
+
+    section {
+      padding: 70px; 
+      background-color: #E3DBCA;
+	  margin: 165px;
+      margin-bottom: 25px;
+      border-radius: 10px;
+      margin-top: 30px;
+    }
+
+    h2 {
+	font-family: Vollkorn, serif;
+	  font-size: 25px;
+	  color: #3C290C;
+      text-align: center;
+	
+	}
+	
+	h5 {
+	  font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+	  font-size: 15px;
+	  color: #3C290C;
+      text-align: center;
+    }
+
+    .image-container {
+      text-align: center;
+      margin-top: 0px;
+    }
+
+    img {
+      max-width: 80%;
+      height: auto;
+      border-radius: 20px;
+      display: block;
+      margin: 0 auto;
+    }
+
+    footer {
+      background-color: #E0CEA9;
+      color: #3C290C;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div id="abc">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="experience.html">Experiences</a></li>
+        <li><a href="contactme.html">Contact Me</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <section>
+      <div class="image-container">
+        <img src="images/abtme.jpg" alt="Gambar Profil" width="200" border="1">
+      </div>
+
+      <h2><br>About Me!</h2></br>
+        <h5>My Name is Saidatul Nuraisyah Binti Saeidi</h5>
+        <h5>Birth Date: 24 May 2003</h5>
+        <h5>Address: Taman Perumahan Sri Kajangan, Bukit Tunggal, Kuala Nerus, Terengganu</h5>
+        <h5>Hobbies: Cycling, baking, taking photos and video, photo and video editing, etc</h5>
+        <h5>Contact: 016-5964521</h5>
+      </h3>
+    </section>
+
+    <footer>
+      <marquee direction="left">© 2024 EsyahSaeidi's website. All Rights Reserved.</marquee>
+    </footer>
+  </div>
+</body>
+</html>
+
